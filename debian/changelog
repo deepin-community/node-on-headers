@@ -1,0 +1,55 @@
+node-on-headers (1.0.2-2) unstable; urgency=medium
+
+  [ Utkarsh Gupta ]
+  * Add myself as an uploader
+
+  [ Yadd ]
+  * Bump debhelper compatibility level to 13
+  * Use dh-sequence-nodejs instead of pkg-js-tools
+  * Uploaders: replace Leo Iannacone by myself, thanks for your work!
+  * Update standards version to 4.6.0, no changes needed.
+  * Fix GitHub tags regex
+  * Fix filenamemangle
+  * Drop dependency to nodejs
+
+ -- Yadd <yadd@debian.org>  Tue, 09 Nov 2021 11:45:48 +0100
+
+node-on-headers (1.0.2-1) unstable; urgency=medium
+
+  * Team upload
+  * Bump debhelper compatibility level to 12
+  * Declare compliance with policy 4.4.1
+  * Add "Rules-Requires-Root: no"
+  * Add debian/gbp.conf
+  * Add upstream/metadata
+  * New upstream version 1.0.2
+  * Use pkg-js-tools auto test & install
+  * Require supertest ≥ 3.4.2 (Closes: #947118)
+
+ -- Xavier Guimard <yadd@debian.org>  Sat, 21 Dec 2019 11:52:50 +0100
+
+node-on-headers (1.0.1-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream version
+  * Bump compat to 11
+  * Bump policy (no changes)
+  * Run testsuite on CI
+  * Use build profile for testing
+
+ -- Bastien Roucariès <rouca@debian.org>  Thu, 01 Nov 2018 17:51:48 +0100
+
+node-on-headers (1.0.0-1) unstable; urgency=medium
+
+  * Imported Upstream version 1.0.0
+  * Bump Standard-Version 3.9.6
+  * Add autopkgtest suite
+  * debian/watch: fix dversionmangle
+
+ -- Leo Iannacone <l3on@ubuntu.com>  Fri, 10 Oct 2014 13:33:49 +0200
+
+node-on-headers (0.0.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #751578)
+
+ -- Leo Iannacone <l3on@ubuntu.com>  Wed, 18 Jun 2014 01:12:37 +0200

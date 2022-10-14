@@ -1,0 +1,26 @@
+Source: node-on-headers
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Yadd <yadd@debian.org>,
+           Utkarsh Gupta <guptautkarsh2102@gmail.com>
+Section: javascript
+Testsuite: autopkgtest-pkg-nodejs
+Priority: optional
+Build-Depends: debhelper-compat (= 13)
+ , dh-sequence-nodejs
+ , mocha <!nocheck>
+ , node-supertest (>= 3.4.2) <!nocheck>
+Standards-Version: 4.6.0
+Homepage: https://github.com/jshttp/on-headers
+Vcs-Git: https://salsa.debian.org/js-team/node-on-headers.git
+Vcs-Browser: https://salsa.debian.org/js-team/node-on-headers
+Rules-Requires-Root: no
+
+Package: node-on-headers
+Architecture: all
+Depends: ${misc:Depends}
+Description: HTTP response headers listener - Node.js module
+ This module tracks when headers are written to a Node.js HTTP response
+ and provides a facility for calling listeners before the headers are
+ written.
+ .
+ Node.js is an event-based server-side JavaScript engine.
